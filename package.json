@@ -1,0 +1,25 @@
+{
+  "name": "101-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "npx tsc",
+    "tsc-v": "npx tsc -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukind/101Typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukind/101Typescript/issues"
+  },
+  "homepage": "https://github.com/ukind/101Typescript#readme"
+}
