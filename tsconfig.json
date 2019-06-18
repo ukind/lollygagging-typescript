@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
-        "target": "es6"
+        "target": "es6",
+        "outDir": "js"
     },
     "include": [
-        "*.ts"
+        "*.ts", "typescript/**.ts"
     ],
     "exclude": [
         "node_modules"
