@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "outDir": "js"
+        "outDir": "js",
+        "strictNullChecks": true
     },
     "include": [
         "*.ts", "typescript/**.ts"

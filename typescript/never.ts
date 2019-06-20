@@ -20,4 +20,4 @@ function noTypeData(message: string): never {
 console.log(foo(12));
 
 console.log(foo("tikus"));
-console.log(foo(false));
+// console.log(foo(false));
