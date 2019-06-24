@@ -17,6 +17,7 @@ class Vilain extends Person2 {
         this.vilainSuperpowers.push(superpower);
     }
     greet() {
+        //   if setting name to private. it will shows an error. because inaccessable
         return `Me! the greatest ${this.name} will kil you with: ${this.vilainSuperpowers}`;
     }
 }
