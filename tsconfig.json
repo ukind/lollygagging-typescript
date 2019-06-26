@@ -5,7 +5,7 @@
         "strictNullChecks": true
     },
     "include": [
-        "*.ts", "typescript/**.ts"
+        "*.ts", "typescript/**/**.ts"
     ],
     "exclude": [
         "node_modules"
