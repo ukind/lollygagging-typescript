@@ -1,41 +1,41 @@
-(function() {
-  interface IPerson {
+(function(): void {
+  interface Person {
     name: string;
     age: number;
   }
 
-  interface IHero extends IPerson {
+  interface Hero extends Person {
     superpower: string[];
   }
 
-  abstract class Human implements IPerson {
-    name: string;
-    age: number;
-    constructor(name: string) {
+  abstract class Human implements Person {
+    public name: string = "";
+    public age: number = 0;
+    public constructor(name: string) {
       this.name = name;
     }
     abstract showAge(): number;
   }
 
   class Person extends Human {
-    constructor(name: string) {
+    public constructor(name: string) {
       super(name);
     }
-    showAge(): number {
+    public showAge(): number {
       return this.age;
     }
   }
 
-  class Hero extends Person implements IHero {
-    superpower: string[] = [];
-    constructor(name: string) {
+  class Hero extends Person implements Hero {
+    public superpower: string[] = [];
+    public constructor(name: string) {
       super(name);
     }
-    addPower(power: string) {
+    public addPower(power: string): void {
       this.superpower.push(power);
     }
 
-    listPowers(): string[] {
+    public listPowers(): string[] {
       return this.superpower;
     }
   }
