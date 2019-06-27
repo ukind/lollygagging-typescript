@@ -1,6 +1,9 @@
+"use strict";
 (function () {
     class Human {
         constructor(name) {
+            this.name = "";
+            this.age = 0;
             this.name = name;
         }
     }

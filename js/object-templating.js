@@ -1,3 +1,4 @@
+"use strict";
 // creating template for object properties
 (function () {
     const people = {

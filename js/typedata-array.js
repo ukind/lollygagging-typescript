@@ -1,3 +1,4 @@
+"use strict";
 (function () {
     const ageList = [4, 8, 2, 6, 4];
     ageList.push(22);
