@@ -3,6 +3,7 @@ module.exports = {
   output: {
     filename: "./bundle.js"
   },
+  devtool: "inline-source-map", //add source map for bundle.js
   resolve: {
     extensions: [".ts"]
   },
@@ -10,12 +11,12 @@ module.exports = {
     rules: [
       {
         test: /\.ts$/,
-        loader: "ts-loader"
+        loader: "ts-loader" //for build tyepscript with webpack
       },
       {
         test: /\.ts$/,
         enforce: "pre",
-        loader: "tslint-loader"
+        loader: "tslint-loader" //for linting typescript with webpack
       }
     ]
   }
