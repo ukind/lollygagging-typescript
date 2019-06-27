@@ -1,3 +1,4 @@
+"use strict";
 function foo(x) {
     if (typeof x === "number") {
         return true;

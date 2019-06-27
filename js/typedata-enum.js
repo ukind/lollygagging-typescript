@@ -1,3 +1,4 @@
+"use strict";
 (function () {
     let weekDay;
     (function (weekDay) {

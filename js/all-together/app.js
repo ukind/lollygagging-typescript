@@ -1,4 +1,9 @@
-import Hero from "./hero";
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const hero_1 = __importDefault(require("./hero"));
 (function () {
     // interface IPerson {
     //   name: string;
@@ -35,9 +40,9 @@ import Hero from "./hero";
     //     return this.superpower;
     //   }
     // }
-    let batman = new Hero("Batman");
+    let batman = new hero_1.default("Batman");
     batman.age = 22;
     batman.addPower("knock-out");
     batman.addPower("sleep");
-    console.log(batman.listPowers);
+    console.log(batman.listPowers());
 })();

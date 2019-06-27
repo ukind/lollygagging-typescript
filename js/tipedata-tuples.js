@@ -1,3 +1,4 @@
+"use strict";
 (function () {
     let mix;
     // this is correct!

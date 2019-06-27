@@ -1,3 +1,4 @@
+"use strict";
 let pilot = {
     name: "Bert",
     age: 34

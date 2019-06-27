@@ -1,3 +1,4 @@
+"use strict";
 class Person2 {
     constructor(name) {
         this.name = name;
@@ -9,6 +10,7 @@ class Person2 {
 class Vilain extends Person2 {
     constructor(name) {
         super(name);
+        this.vilainSuperpowers = [];
     }
     getSuperpowerList() {
         return this.vilainSuperpowers;
@@ -22,3 +24,4 @@ class Vilain extends Person2 {
     }
 }
 const joker = new Vilain("kamui");
+joker.greet();

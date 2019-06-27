@@ -1,3 +1,4 @@
+"use strict";
 (function () {
     function greet(name) {
         return `Hello ${name}`;
