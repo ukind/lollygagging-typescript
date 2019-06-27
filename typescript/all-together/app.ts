@@ -1,6 +1,6 @@
 import Hero from "./hero";
 
-(function() {
+(function(): void {
   // interface IPerson {
   //   name: string;
   //   age: number;

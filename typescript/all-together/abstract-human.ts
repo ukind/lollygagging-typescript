@@ -1,9 +1,9 @@
 import IPerson from "./IPerson";
 
 export default abstract class Human implements IPerson {
-  name: string;
-  age: number;
-  constructor(name: string) {
+  public name: string = "";
+  public age: number = 0;
+  public constructor(name: string) {
     this.name = name;
   }
   abstract showAge(): number;
