@@ -46,5 +46,5 @@ import Hero from "./hero";
   batman.age = 22;
   batman.addPower("knock-out");
   batman.addPower("sleep");
-  console.log(batman.listPowers);
+  console.log(batman.listPowers());
 })();
