@@ -22,7 +22,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "npx tsc",
-    "tsc-v": "npx tsc -v"
+    "tsc-v": "npx tsc -v",
+    "tsc-watch" : "npx tsc -watch"
   },
   "repository": {
     "type": "git",
