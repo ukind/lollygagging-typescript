@@ -1,4 +1,4 @@
-(function(): void {
+(function (): void {
   interface Person {
     name: string;
     age: number;
@@ -9,11 +9,12 @@
   }
 
   abstract class Human implements Person {
-    public name: string = "";
-    public age: number = 0;
+    public name = "";
+    public age = 0;
     public constructor(name: string) {
       this.name = name;
     }
+    // if declared as abstract, derived class MUST implement that function too
     abstract showAge(): number;
   }
 
@@ -21,6 +22,7 @@
     public constructor(name: string) {
       super(name);
     }
+    // *MUST HAVE*
     public showAge(): number {
       return this.age;
     }
@@ -40,9 +42,10 @@
     }
   }
 
-  let batman = new Hero("Batman");
+  const batman = new Hero("Batman");
   batman.age = 22;
   batman.addPower("knock-out");
   batman.addPower("sleep");
+  batman.showAge();
   console.log(batman.listPowers);
 })();

@@ -8,12 +8,12 @@
         "tikus",
         "makan",
         34,
-        "sabun"
+        "sabun",
     ];
     const anotherMixedValue = [
         true,
         "or",
         false,
-        "doesnt matter"
+        "doesnt matter",
     ];
 })();

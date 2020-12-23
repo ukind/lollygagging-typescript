@@ -1,6 +1,6 @@
-(function() {
-  const isAdmin: boolean = true;
-  const userName: string = "Yogiswara";
+(function () {
+  const isAdmin = true;
+  const userName = "Yogiswara";
   let message: string;
 
   if (isAdmin) {

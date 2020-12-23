@@ -9,9 +9,9 @@ interface IUser {
   nickname?: string;
 }
 
-let pilot: IUser = {
+const pilot: IUser = {
   name: "Bert",
-  age: 34
+  age: 34,
 };
 
 console.log(pilot.age);
@@ -22,7 +22,7 @@ interface IGreet {
 }
 
 let sing: IGreet;
-sing = function(name: string, age: number) {
+sing = function (name: string, age: number) {
   return `tikus ${name}, makan sabun ${age}`;
 };
 

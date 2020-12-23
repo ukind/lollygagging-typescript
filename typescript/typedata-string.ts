@@ -1,2 +1,2 @@
-const userName: string = "Yogiswara Utama";
-const message: string = "lies for the liars";
+const userName = "Yogiswara Utama";
+const message = "lies for the liars";

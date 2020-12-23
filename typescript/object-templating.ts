@@ -1,5 +1,5 @@
 // creating template for object properties
-(function() {
+(function () {
   type User = {
     name: string;
     age: number;
@@ -7,14 +7,14 @@
 
   const people: User = {
     name: "yogiswara",
-    age: 12
+    age: 12,
   };
 
   console.log(people);
 })();
 
 // type accertions! so, we could set only one or each properties
-(function() {
+(function () {
   type user = {
     name: string;
     age: number;

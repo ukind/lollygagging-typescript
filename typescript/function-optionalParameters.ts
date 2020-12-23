@@ -1,4 +1,4 @@
-(function() {
+(function () {
   function greet(
     name: string,
     age: number,

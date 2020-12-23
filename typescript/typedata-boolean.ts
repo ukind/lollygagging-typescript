@@ -1,1 +1,1 @@
-const isAdmin: boolean = false;
+const isAdmin = false;

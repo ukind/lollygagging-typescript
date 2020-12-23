@@ -1,3 +1,3 @@
-const age: number = 21;
-const hexadecimanl: number = 0xa00f;
-const binary: number = 0b1110;
+const age = 21;
+const hexadecimanl = 0xa00f;
+const binary = 0b1110;

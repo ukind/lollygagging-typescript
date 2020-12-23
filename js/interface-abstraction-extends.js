@@ -11,6 +11,7 @@
         constructor(name) {
             super(name);
         }
+        // *MUST HAVE*
         showAge() {
             return this.age;
         }
@@ -27,9 +28,10 @@
             return this.superpower;
         }
     }
-    let batman = new Hero("Batman");
+    const batman = new Hero("Batman");
     batman.age = 22;
     batman.addPower("knock-out");
     batman.addPower("sleep");
+    batman.showAge();
     console.log(batman.listPowers);
 })();

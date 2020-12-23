@@ -24,13 +24,13 @@ const fs = __importStar(require("fs"));
 const users = [
     {
         name: "John",
-        age: 33
+        age: 33,
     },
     {
         name: "Bert",
-        age: 36
-    }
+        age: 36,
+    },
 ];
-const maxAge = _.max(users, user => user.age);
+const maxAge = _.max(users, (user) => user.age);
 console.log(maxAge);
 const file = fs.readFileSync("./test.txt", "utf-8");

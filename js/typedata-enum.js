@@ -6,8 +6,8 @@
         weekDay[weekDay["SUNDAY"] = 1] = "SUNDAY";
         weekDay["SATURDAY"] = "my birthday";
     })(weekDay || (weekDay = {}));
-    let myDay = weekDay.MONDAY;
-    let nameOfDay = weekDay[1];
+    const myDay = weekDay.MONDAY;
+    const nameOfDay = weekDay[1];
     const dayTitle = weekDay.SATURDAY;
     console.log(myDay); //return : 0
     console.log(nameOfDay); //return SUNDAY

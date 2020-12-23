@@ -8,7 +8,7 @@ class Person {
   }
 }
 
-let yogi = new Person("yogi");
+const yogi = new Person("yogi");
 yogi.greet();
 
 class Heroism extends Person {

@@ -1,4 +1,4 @@
-(function() {
+(function () {
   const ageList: number[] = [4, 8, 2, 6, 4];
   ageList.push(22);
 
@@ -9,13 +9,13 @@
     "tikus",
     "makan",
     34,
-    "sabun"
+    "sabun",
   ];
 
   const anotherMixedValue: (boolean | number | string)[] = [
     true,
     "or",
     false,
-    "doesnt matter"
+    "doesnt matter",
   ];
 })();

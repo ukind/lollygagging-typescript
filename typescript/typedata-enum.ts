@@ -1,12 +1,12 @@
-(function() {
+(function () {
   enum weekDay {
     MONDAY,
     SUNDAY,
-    SATURDAY = "my birthday"
+    SATURDAY = "my birthday",
   }
 
-  let myDay: weekDay = weekDay.MONDAY;
-  let nameOfDay: string = weekDay[1];
+  const myDay: weekDay = weekDay.MONDAY;
+  const nameOfDay: string = weekDay[1];
   const dayTitle: string = weekDay.SATURDAY;
 
   console.log(myDay); //return : 0

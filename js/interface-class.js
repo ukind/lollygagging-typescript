@@ -7,7 +7,7 @@ class Person {
         return `Hello ${this.name}`;
     }
 }
-let yogi = new Person("yogi");
+const yogi = new Person("yogi");
 yogi.greet();
 class Heroism extends Person {
     constructor(name) {

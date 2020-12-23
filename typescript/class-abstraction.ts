@@ -1,7 +1,7 @@
-(function(): void {
+(function (): void {
   abstract class Human {
-    public name: string = "";
-    public age: number = 0;
+    public name = "";
+    public age = 0;
     public constructor(name: string) {
       this.name = name;
     }
@@ -9,7 +9,7 @@
   }
 
   class Person extends Human {
-    public name: string = "";
+    public name = "";
     public constructor(name: string) {
       super(name);
     }

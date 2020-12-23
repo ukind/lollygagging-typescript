@@ -1,7 +1,7 @@
 "use strict";
-let pilot = {
+const pilot = {
     name: "Bert",
-    age: 34
+    age: 34,
 };
 console.log(pilot.age);
 let sing;

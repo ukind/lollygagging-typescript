@@ -1,4 +1,4 @@
-(function() {
+(function () {
   interface IPerson {
     name: string;
   }
@@ -8,17 +8,17 @@
   }
 
   const regularBert: IPerson = {
-    name: "bert"
+    name: "bert",
   };
 
   const singer: IHero = {
     name: "Cael",
-    superpower: "sing"
+    superpower: "sing",
   };
 })();
 
 // interface extra: add additional objecy key and value
-(function() {
+(function () {
   interface IUser {
     name: string;
     readonly age: number;
@@ -27,11 +27,11 @@
     [property: string]: any;
   }
 
-  let adminUser: IUser = {
+  const adminUser: IUser = {
     name: "yogi",
     age: 22,
     lagu: "tikus makan sabun",
-    anotherKey: "example of another key"
+    anotherKey: "example of another key",
   };
 
   console.log(adminUser.lagu);

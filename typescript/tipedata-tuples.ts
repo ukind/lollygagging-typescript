@@ -1,4 +1,4 @@
-(function() {
+(function () {
   let mix: [string, number];
   // this is correct!
   mix = ["tikus", 2];
