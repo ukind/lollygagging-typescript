@@ -1,10 +1,10 @@
 (function () {
     var regularBert = {
-        name: "bert"
+        name: "bert",
     };
     var singer = {
         name: "Cael",
-        superpower: "sing"
+        superpower: "sing",
     };
 })();
 // interface extra: add additional objecy key and value
@@ -13,7 +13,7 @@
         name: "yogi",
         age: 22,
         lagu: "tikus makan sabun",
-        anotherKey: "example of another key"
+        anotherKey: "example of another key",
     };
     console.log(adminUser.lagu);
 })();

@@ -1,6 +1,6 @@
 var pilot = {
     name: "Bert",
-    age: 34
+    age: 34,
 };
 console.log(pilot.age);
 var sing;

@@ -2,7 +2,7 @@
 (function () {
     var people = {
         name: "yogiswara",
-        age: 12
+        age: 12,
     };
     console.log(people);
 })();
