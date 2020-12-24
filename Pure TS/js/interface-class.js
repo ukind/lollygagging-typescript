@@ -1,26 +1,42 @@
-"use strict";
-class Person {
-    constructor(name) {
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var Person = /** @class */ (function () {
+    function Person(name) {
         this.name = name;
     }
-    greet() {
-        return `Hello ${this.name}`;
-    }
-}
-const yogi = new Person("yogi");
+    Person.prototype.greet = function () {
+        return "Hello " + this.name;
+    };
+    return Person;
+}());
+var yogi = new Person("yogi");
 yogi.greet();
-class Heroism extends Person {
-    constructor(name) {
-        super(name);
-        this.superpowers = [];
+var Heroism = /** @class */ (function (_super) {
+    __extends(Heroism, _super);
+    function Heroism(name) {
+        var _this = _super.call(this, name) || this;
+        _this.superpowers = [];
+        return _this;
     }
-    addPower(power) {
+    Heroism.prototype.addPower = function (power) {
         this.superpowers.push(power);
-    }
-    listPower() {
+    };
+    Heroism.prototype.listPower = function () {
         return this.superpowers;
-    }
-}
-const batman = new Heroism("Utama");
+    };
+    return Heroism;
+}(Person));
+var batman = new Heroism("Utama");
 batman.addPower("Terbang");
 console.log(batman.listPower());

@@ -23,33 +23,15 @@ var __extends = (this && this.__extends) || (function () {
     var Person = /** @class */ (function (_super) {
         __extends(Person, _super);
         function Person(name) {
-            return _super.call(this, name) || this;
+            var _this = _super.call(this, name) || this;
+            _this.name = "";
+            return _this;
         }
-        // *MUST HAVE*
-        Person.prototype.showAge = function () {
-            return this.age;
+        Person.prototype.greet = function () {
+            console.log("Hello " + this.name);
         };
         return Person;
     }(Human));
-    var Hero = /** @class */ (function (_super) {
-        __extends(Hero, _super);
-        function Hero(name) {
-            var _this = _super.call(this, name) || this;
-            _this.superpower = [];
-            return _this;
-        }
-        Hero.prototype.addPower = function (power) {
-            this.superpower.push(power);
-        };
-        Hero.prototype.listPowers = function () {
-            return this.superpower;
-        };
-        return Hero;
-    }(Person));
-    var batman = new Hero("Batman");
-    batman.age = 22;
-    batman.addPower("knock-out");
-    batman.addPower("sleep");
-    batman.showAge();
-    console.log(batman.listPowers);
+    var yogi = new Person("yogi");
+    yogi.greet();
 })();

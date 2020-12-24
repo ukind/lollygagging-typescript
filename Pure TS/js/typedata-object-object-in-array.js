@@ -1,28 +1,27 @@
-"use strict";
-const family = [
+var family = [
     {
         name: "yogiswara",
-        age: 24,
+        age: 24
     },
     {
         name: "ida",
-        age: 50,
+        age: 50
     },
     {
         name: "lala",
-        age: 20,
+        age: 20
     },
     {
         name: "rudi",
-        age: 50,
+        age: 50
     },
 ];
 console.log(family);
-const getDOM = {
-    getDOM() {
+var getDOM = {
+    getDOM: function () {
         return "test";
     },
-    setUsername() {
-        const username = document.querySelector("username");
-    },
+    setUsername: function () {
+        var username = document.querySelector("username");
+    }
 };

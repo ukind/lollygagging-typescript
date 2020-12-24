@@ -1,20 +1,19 @@
-"use strict";
 (function () {
-    const regularBert = {
-        name: "bert",
+    var regularBert = {
+        name: "bert"
     };
-    const singer = {
+    var singer = {
         name: "Cael",
-        superpower: "sing",
+        superpower: "sing"
     };
 })();
 // interface extra: add additional objecy key and value
 (function () {
-    const adminUser = {
+    var adminUser = {
         name: "yogi",
         age: 22,
         lagu: "tikus makan sabun",
-        anotherKey: "example of another key",
+        anotherKey: "example of another key"
     };
     console.log(adminUser.lagu);
 })();

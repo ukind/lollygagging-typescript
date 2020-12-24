@@ -1,6 +1,5 @@
-"use strict";
-const number = [1, 5, 3, 2];
-const greatherThanOne = number.filter((number) => {
+var number = [1, 5, 3, 2];
+var greatherThanOne = number.filter(function (number) {
     number > 1;
 });
 console.log(greatherThanOne);

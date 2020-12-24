@@ -1,16 +1,15 @@
-"use strict";
 (function () {
-    const ageList = [4, 8, 2, 6, 4];
+    var ageList = [4, 8, 2, 6, 4];
     ageList.push(22);
-    const listOfName = ["yogiswara", "utama"];
+    var listOfName = ["yogiswara", "utama"];
     listOfName.push("utamakan belajar");
-    const listOfNameAndAge = [
+    var listOfNameAndAge = [
         "tikus",
         "makan",
         34,
         "sabun",
     ];
-    const anotherMixedValue = [
+    var anotherMixedValue = [
         true,
         "or",
         false,

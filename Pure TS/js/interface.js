@@ -1,11 +1,10 @@
-"use strict";
-const pilot = {
+var pilot = {
     name: "Bert",
-    age: 34,
+    age: 34
 };
 console.log(pilot.age);
-let sing;
+var sing;
 sing = function (name, age) {
-    return `tikus ${name}, makan sabun ${age}`;
+    return "tikus " + name + ", makan sabun " + age;
 };
 sing("yogi", 12);
