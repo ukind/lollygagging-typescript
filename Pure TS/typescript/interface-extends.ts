@@ -8,14 +8,14 @@
   }
 
   const regularBert: IPerson = {
-    name: "bert",
+    name: 'bert',
   };
 
   const singer: IHero = {
-    name: "Cael",
-    superpower: "sing",
+    name: 'Cael',
+    superpower: 'sing',
   };
-})();
+}());
 
 // interface extra: add additional objecy key and value
 (function () {
@@ -28,11 +28,11 @@
   }
 
   const adminUser: IUser = {
-    name: "yogi",
+    name: 'yogi',
     age: 22,
-    lagu: "tikus makan sabun",
-    anotherKey: "example of another key",
+    lagu: 'tikus makan sabun',
+    anotherKey: 'example of another key',
   };
 
   console.log(adminUser.lagu);
-})();
+}());

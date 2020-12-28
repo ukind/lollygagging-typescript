@@ -1,19 +1,19 @@
 (function () {
     var regularBert = {
-        name: "bert",
+        name: 'bert',
     };
     var singer = {
-        name: "Cael",
-        superpower: "sing",
+        name: 'Cael',
+        superpower: 'sing',
     };
-})();
+}());
 // interface extra: add additional objecy key and value
 (function () {
     var adminUser = {
-        name: "yogi",
+        name: 'yogi',
         age: 22,
-        lagu: "tikus makan sabun",
-        anotherKey: "example of another key",
+        lagu: 'tikus makan sabun',
+        anotherKey: 'example of another key',
     };
     console.log(adminUser.lagu);
-})();
+}());
