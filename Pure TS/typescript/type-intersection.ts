@@ -12,14 +12,21 @@ const segitiga: Triangle<number> = {
 };
 
 // Extending a type via intersections
-// type Animal = {
-//     name: string
-//   }
-  
-//   type Bear = Animal & { 
-//     honey: Boolean 
-//   }
-  
-//   const bear = getBear();
-//   bear.name;
-//   bear.honey;
+type Animal = {
+  name: string;
+};
+
+type Bear = Animal & {
+  honey: Boolean;
+};
+
+// const bear = getBear();
+// bear.name;
+// bear.honey;
+
+const bear: Bear = {
+  honey: true,
+  name: 'kango',
+};
+
+bear.honey
