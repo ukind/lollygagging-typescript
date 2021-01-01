@@ -1,2 +1,0 @@
-function someFn(args, string) {
-}
